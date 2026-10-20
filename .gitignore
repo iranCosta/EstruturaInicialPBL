@@ -1,0 +1,40 @@
+# Segredos e ambiente
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependências
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+vendor/
+
+# Builds
+dist/
+build/
+target/
+out/
+*.class
+*.jar
+*.log
+
+# Dados locais do banco (Docker)
+pgdata/
+*.sqlite
+
+# IDEs e SO
+.idea/
+.vscode/
+*.iml
+*.swp
+.DS_Store
+Thumbs.db
+
+# Testes
+coverage/
+.pytest_cache/
+.coverage

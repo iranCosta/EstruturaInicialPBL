@@ -1,0 +1,38 @@
+# Variáveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependências
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+vendor/
+
+# Builds e artefatos
+dist/
+build/
+target/
+out/
+*.class
+*.jar
+*.log
+
+# IDEs e editores
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Cobertura e caches de teste
+coverage/
+.pytest_cache/
+.coverage

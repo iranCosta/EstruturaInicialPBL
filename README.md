@@ -70,7 +70,7 @@ Decisões principais do design:
 1. Clone o repositório:
    ```bash
    git clone <URL-DO-REPOSITORIO>
-   cd suportetech
+   cd EstruturaInicialPBL
    ```
 2. Crie o arquivo de ambiente a partir do modelo:
    ```bash
